@@ -3,13 +3,14 @@ import App from './App.vue'
 import firebase from 'firebase'
 
 firebase.initializeApp({
-  apiKey: "AIzaSyBqLUXaDvnDR2CoBvY94anzYi1P1o19DKs",
-  authDomain: "fbauthdemo-2a451.firebaseapp.com",
-  databaseURL: "https://fbauthdemo-2a451.firebaseio.com",
-  projectId: "fbauthdemo-2a451",
-  storageBucket: "",
-  messagingSenderId: "839675573680",
-  appId: "1:839675573680:web:b7e921f299469934659275"
+  apiKey: "AIzaSyDxFBSjA3j3zblSGu5Wgf7ImT6DyU_qtVg",
+  authDomain: "develop-soulmonsters.firebaseapp.com",
+  databaseURL: "https://develop-soulmonsters.firebaseio.com",
+  projectId: "develop-soulmonsters",
+  storageBucket: "develop-soulmonsters.appspot.com",
+  messagingSenderId: "390876996778",
+  appId: "1:390876996778:web:f514ab26f81786ab6e9cd3",
+  measurementId: "G-9ZDH2P42HS"
 })
 
 Vue.config.productionTip = false

@@ -9,7 +9,7 @@ const serviceAccount = require("./config/fbServiceAccountKey.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://fbauthdemo-2a451.firebaseio.com"
+  databaseURL: "https://develop-soulmonsters.firebaseio.com"
 });
 
 var app = express();

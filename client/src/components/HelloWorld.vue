@@ -63,7 +63,7 @@ export default {
     },
     signIn() {
       firebase.auth()
-      .signInWithEmailAndPassword("dummy@gmail.com", "pass123!")
+      .signInWithPopup(new firebase.auth.GoogleAuthProvider())
       .then(() => {
         this.authStatus = 'Authorized'
       }).catch((err) => {
